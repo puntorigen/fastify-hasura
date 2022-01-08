@@ -1,0 +1,40 @@
+{
+  "name": "@ash0080/fastify-hasura",
+  "version": "1.0.0",
+  "description": "A Fastify plugin wrapping @ash0080/hasura-sdk and graphql-request for Hasura",
+  "main": "build/main",
+  "typings": "build/main/index.d.ts",
+  "module": "build/module/index.js",
+  "scripts": {
+    "pretest": "npm run lint && tsc --noEmit",
+    "test": "env $(cat .env) tap --ts -j1 -R=specy -o report.tap -w test/**/*.ts",
+    "lint": "eslint . --cache --fix --ext .ts,.tsx",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "fastify",
+    "hasura",
+    "schema",
+    "metadata",
+    "healthz",
+    "pgdump",
+    "graphql",
+    "@ash0080/hasura-sdk",
+    "graphql-request"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ash0080/hasura-sdk": "link:../hasura-sdk",
+    "fastify-plugin": "^3.0.0",
+    "graphql": "^16.2.0",
+    "graphql-request": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "fastify": "^3.25.3",
+    "tap": "^15.1.5",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.5.4"
+  }
+}

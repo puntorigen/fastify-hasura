@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: test/index.ts
+    # Subtest: hasura
+        ok 1 - type is object
+        ok 2 - type is object
+        ok 3 - type is object
+        ok 4 - type is function
+        ok 5 - type is function
+        ok 6 - type is function
+        ok 7 - Return statusCode 200
+        ok 8 - Throw nice error
+        ok 9 - return TuplesOk
+        ok 10 - result is version info
+        1..10
+    ok 1 - hasura # time=37.292ms
+    
+    1..1
+    # time=76.608ms
+ok 1 - test/index.ts # time=76.608ms
+
+1..1
+# time=1882.034ms

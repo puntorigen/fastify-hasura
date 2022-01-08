@@ -1,0 +1,5 @@
+.eslintcache
+.env
+.nyc_output
+.pnpm-debug.log
+node_modules
