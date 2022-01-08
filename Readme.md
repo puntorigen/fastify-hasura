@@ -6,7 +6,9 @@ for [Hasura](https://github.com/hasura/graphql-engine)
 So, by importing this plugin, you will have access to hasura's graphql, schema, metadata, healthz, pgdump , 5API's in total
 
 ## Installation
+
 ```yarn add @ash0080/fastify-hasura```
+
 ```pnpm add @ash0080/fastify-hasura```
 
 ## Features
