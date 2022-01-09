@@ -1,6 +1,6 @@
 {
   "name": "@ash0080/fastify-hasura",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Fastify plugin wrapping @ash0080/hasura-sdk and graphql-request for Hasura",
   "main": "build/main",
   "typings": "build/main/index.d.ts",
@@ -24,9 +24,9 @@
     "graphql-request"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@ash0080/hasura-sdk": "link:../hasura-sdk",
+    "@ash0080/hasura-sdk": "^1.1.0",
     "fastify-plugin": "^3.0.0",
     "graphql": "^16.2.0",
     "graphql-request": "^3.4.0"
