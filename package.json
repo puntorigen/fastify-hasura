@@ -1,5 +1,5 @@
 {
-  "name": "@ash0080/fastify-hasura",
+  "name": "fastify-hasura",
   "version": "1.0.2",
   "description": "A Fastify plugin wrapping @ash0080/hasura-sdk and graphql-request for Hasura",
   "main": "build/main",
