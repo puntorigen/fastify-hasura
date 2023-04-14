@@ -1,15 +1,15 @@
-# @ash0080/fastify-hasura
+# puntorigen/fastify-hasura
 
 A [Fastify](https://github.com/fastify/fastify) plugin wrapping [@ash0080/hasura-sdk](https://github.com/ash0080/hasura-sdk) and [graphql-request](https://github.com/prisma-labs/graphql-request)
-for [Hasura](https://github.com/hasura/graphql-engine)
+for [Hasura](https://github.com/hasura/graphql-engine); support Fastify v4+
 
 So, by importing this plugin, you will have access to hasura's graphql, schema, metadata, healthz, pgdump , 5API's in total
 
 ## Installation
 
-```yarn add @ash0080/fastify-hasura```
+```yarn add puntorigen/fastify-hasura```
 
-```pnpm add @ash0080/fastify-hasura```
+```pnpm add puntorigen/fastify-hasura```
 
 ## Features
 This plugin covers most of the features of the official api's
@@ -18,7 +18,7 @@ See hasura's [official documentation](https://hasura.io/docs/latest/graphql/core
 
 ## Usage
 ```js
-import fastifyHasura from '@ash0080/fastify-hasura'
+import fastifyHasura from 'fastify-hasura'
 
 fastify.register(fastifyHasura, {
   hasura_base: 'http://localhost:8080',
@@ -58,13 +58,5 @@ and [graphql-request](https://github.com/prisma-labs/graphql-request#examples) d
 ## Changelog
 
 The changelog can be found on the [Releases page](/releases).
-
-## Contributing
-
-Everyone is welcome to contribute. Please take a moment to review the [contributing guidelines](Contributing.md).
-
-## Authors and license
-
-[ash0080](Beorn) and [contributors](/graphs/contributors).
 
 MIT License, see the included [License.md](License.md) file.
