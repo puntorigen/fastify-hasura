@@ -77,4 +77,4 @@ export const fastifyHasura: FastifyPluginAsync<FastifyHasuraSDKOptions> = fastif
   }
   sdk.graphql = graphql
   fastify.decorate('hasura', Object.freeze(sdk))
-}, '3.x')
+})
